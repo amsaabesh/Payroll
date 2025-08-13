@@ -1,0 +1,12 @@
+C:\Users\mahir\source\repos\Payroll\obj\Debug\Payroll.csproj.AssemblyReference.cache
+C:\Users\mahir\source\repos\Payroll\obj\Debug\Payroll.Properties.Resources.resources
+C:\Users\mahir\source\repos\Payroll\obj\Debug\Payroll.csproj.GenerateResource.cache
+C:\Users\mahir\source\repos\Payroll\obj\Debug\Payroll.csproj.CoreCompileInputs.cache
+C:\Users\mahir\source\repos\Payroll\obj\Debug\PayrollApp.MainForm.resources
+C:\Users\mahir\source\repos\Payroll\bin\Debug\Payroll.exe.config
+C:\Users\mahir\source\repos\Payroll\bin\Debug\Payroll.exe
+C:\Users\mahir\source\repos\Payroll\bin\Debug\Payroll.pdb
+C:\Users\mahir\source\repos\Payroll\obj\Debug\Payroll.exe
+C:\Users\mahir\source\repos\Payroll\obj\Debug\Payroll.pdb
+C:\Users\mahir\source\repos\Payroll\obj\Debug\Payroll.HomePage.resources
+C:\Users\mahir\source\repos\Payroll\obj\Debug\Payroll.Form2.resources

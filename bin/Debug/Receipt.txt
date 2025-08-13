@@ -1,0 +1,12 @@
+Employee's Name: Shoaib
+Basic Salary: 18000
+Total Working Days: 23
+Attended Days: 23
+Overtime Hours: 47
+Additional Payment: 554
+Deduction: 553
+WFH Hours: 6
+Late Days: 4, 12/2, 12/4, 12/6, 12/7
+Absent Days: 4, 12/2, 12/4, 12/6, 12/7
+Transport Days: 3
+Weekends: Sat, Sun

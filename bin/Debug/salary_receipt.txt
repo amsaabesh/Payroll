@@ -1,0 +1,16 @@
+Payroll Receipt
+Employee Name: a
+Basic Salary: 18000
+Weekends: s
+Total Working Days: 23
+Attended Days: 23
+Per Day Salary: 782.61
+Main Salary: 23 * 782.61 = 18000
+Per Hour Salary: 86.96
+Overtime Hours: 47
+Overtime Salary: 4086.96
+WFH Salary: 365.22
+Final Salary: Total Salary: ৳ 22551.17
+Late: 1 days
+Absent: 1 days
+Transport: 1 days
