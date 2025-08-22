@@ -49,6 +49,8 @@ namespace PayrollApp
 
                 // Display results
                 salaryLabel.Text = $"Total Salary: ৳ {finalSalary:F2}";
+                additionalPaymentLabel.Text = $"Additional Payment: ৳{additionalPayment:F2}";
+                deductionLabel.Text = $"Deduction: ৳{deduction:F2}"; 
                 errorLabel.Text = ""; // Clear error label if calculation is successful
                 MessageBox.Show($"Total Salary: ৳ {finalSalary:F2}");
             }
@@ -93,10 +95,17 @@ namespace PayrollApp
                     writer.WriteLine($"\nOvertime Hours: {overtimeHoursTextBox.Text}");
                     writer.WriteLine($"\nOvertime Salary: {overtimeSalary:F2}");
                     writer.WriteLine($"\nWFH Salary: {wfhSalary:F2}");
+                    writer.WriteLine($"\nAdditional Payment: {additionalPaymentLabel.Text}");
+                    writer.WriteLine($"\nAdditional Payment Note: {Addi_Desc.Text}");
+                    writer.WriteLine($"\nDeduction: {deductionLabel.Text}");
+                    writer.WriteLine($"\nDeduction Note: {Ded_Desc.Text}");
                     writer.WriteLine($"\nFinal Salary: {salaryLabel.Text}");
                     writer.WriteLine($"\nLate: {lateDaysTextBox.Text} days");
+                    writer.WriteLine($"\nLate Days: {Late_Desc.Text}");
                     writer.WriteLine($"\nAbsent: {absentDaysTextBox.Text} days");
+                    writer.WriteLine($"\nAbsent Days: {Abs_Desc.Text}");
                     writer.WriteLine($"\nTransport: {transportDaysTextBox.Text} days");
+                    writer.WriteLine($"\nTransport Days: {Trans_Desc.Text}");
 
                     // Show success message
                     MessageBox.Show("Receipt has been downloaded successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);

@@ -75,6 +75,11 @@
             this.submitButton = new System.Windows.Forms.Button();
             this.downloadButton = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Addi_Desc = new System.Windows.Forms.TextBox();
+            this.Ded_Desc = new System.Windows.Forms.MaskedTextBox();
+            this.Late_Desc = new System.Windows.Forms.MaskedTextBox();
+            this.Abs_Desc = new System.Windows.Forms.MaskedTextBox();
+            this.Trans_Desc = new System.Windows.Forms.MaskedTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -301,9 +306,50 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // Addi_Desc
+            // 
+            this.Addi_Desc.Location = new System.Drawing.Point(411, 224);
+            this.Addi_Desc.Name = "Addi_Desc";
+            this.Addi_Desc.Size = new System.Drawing.Size(100, 19);
+            this.Addi_Desc.TabIndex = 27;
+            // 
+            // Ded_Desc
+            // 
+            this.Ded_Desc.Location = new System.Drawing.Point(411, 261);
+            this.Ded_Desc.Name = "Ded_Desc";
+            this.Ded_Desc.Size = new System.Drawing.Size(100, 19);
+            this.Ded_Desc.TabIndex = 28;
+            // 
+            // Late_Desc
+            // 
+            this.Late_Desc.Location = new System.Drawing.Point(411, 337);
+            this.Late_Desc.Name = "Late_Desc";
+            this.Late_Desc.Size = new System.Drawing.Size(100, 19);
+            this.Late_Desc.TabIndex = 29;
+            // 
+            // Abs_Desc
+            // 
+            this.Abs_Desc.Location = new System.Drawing.Point(411, 377);
+            this.Abs_Desc.Name = "Abs_Desc";
+            this.Abs_Desc.Size = new System.Drawing.Size(100, 19);
+            this.Abs_Desc.TabIndex = 30;
+            // 
+            // Trans_Desc
+            // 
+            this.Trans_Desc.Location = new System.Drawing.Point(411, 420);
+            this.Trans_Desc.Name = "Trans_Desc";
+            this.Trans_Desc.Size = new System.Drawing.Size(100, 19);
+            this.Trans_Desc.TabIndex = 31;
+            this.Trans_Desc.Tag = "";
+            // 
             // MainForm
             // 
             this.ClientSize = new System.Drawing.Size(541, 600);
+            this.Controls.Add(this.Trans_Desc);
+            this.Controls.Add(this.Abs_Desc);
+            this.Controls.Add(this.Late_Desc);
+            this.Controls.Add(this.Ded_Desc);
+            this.Controls.Add(this.Addi_Desc);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.nameLabel);
             this.Controls.Add(this.basicSalaryLabel);
@@ -332,6 +378,7 @@
             this.Controls.Add(this.submitButton);
             this.Controls.Add(this.downloadButton);
             this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Payroll Calculator";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -340,5 +387,10 @@
         }
 
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox Addi_Desc;
+        private System.Windows.Forms.MaskedTextBox Ded_Desc;
+        private System.Windows.Forms.MaskedTextBox Late_Desc;
+        private System.Windows.Forms.MaskedTextBox Abs_Desc;
+        private System.Windows.Forms.MaskedTextBox Trans_Desc;
     }
 }

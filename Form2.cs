@@ -27,5 +27,10 @@ namespace Payroll
             // Show MainForm
             homePage.Show();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

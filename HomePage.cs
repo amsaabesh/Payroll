@@ -39,5 +39,7 @@ namespace Payroll
             // Show MainForm
             form2.Show();
         }
+
+        
     }
 }
